@@ -1,9 +1,9 @@
 # real_time_face_detection and recognition
 This is a real time face detection and recognition project base  on opencv/tensorflow/mtcnn/facenet. Chinese version of description is [here](https://zhuanlan.zhihu.com/p/25025596) .Face detection is based on [MTCNN](https://kpzhang93.github.io/MTCNN_face_detection_alignment/index.html).Face embedding is based on [Facenet](https://arxiv.org/abs/1503.03832).
-##Workflow
+## Workflow
 ![](https://github.com/shanren7/real_time_face_recognition/blob/master/images/real%20time%20face%20detection%20and%20recognition.jpg)
 
-##Inspiration
+## Inspiration
 The code was inspired by several projects as follows:
 
 1.[OpenFace](https://github.com/cmusatyalab/openface). The main idea was inspired by openface. However, I prefer python and tensorflow,so there comes this project.
@@ -18,16 +18,16 @@ The code was inspired by several projects as follows:
     
 3.[yobibyte/yobiface](https://github.com/yobibyte/yobiface).
 
-##Dependencies
+## Dependencies
 1.tensorflow
 2.opencv with python bindings (cv2)
 3.jupyter notebook for running .ipynb examples
 
-##Running
+## Running
 1.Downloading pre-trained facenet from https://github.com/yobibyte/yobiface/blob/master/model/model-20160506.ckpt-500000 and putting in model_check_point folder.
 
 2.Running [real time face detection and recognition.ipynb](https://github.com/shanren7/real_time_face_recognition/blob/master/real%20time%20face%20detection%20and%20%20recognition.ipynb) with jupyter notebook
 
-##Results
+## Results
 ![](https://github.com/shanren7/real_time_face_recognition/blob/master/images/video_guai_20.jpg)
 ![](https://github.com/shanren7/real_time_face_recognition/blob/master/images/video_guai_2192.jpg)
